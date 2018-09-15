@@ -1,0 +1,4 @@
+*.ics
+config.py
+*.html
+/__pycache__
