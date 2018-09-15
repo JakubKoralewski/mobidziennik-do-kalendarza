@@ -10,4 +10,7 @@ Aby być na bieżąco ze zmianami na twoim mobidzienniku powinieneś odpalić **
 
 Notacja w języku angielskim bezsensowna. Brawo ja.
 
+NIE ŚLEDZI ZASTĘPSTW ITP. MOŻE ULEC ZEPSUCIU PRZY JAKIEJKOLWIEK ZMIANIE PRZEZ EKIPĘ WIZJANET!
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 

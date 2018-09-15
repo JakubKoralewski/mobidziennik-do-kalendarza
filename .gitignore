@@ -2,3 +2,4 @@
 config.py
 *.html
 /__pycache__
+/.vscode
