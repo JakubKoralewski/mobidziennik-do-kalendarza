@@ -36,18 +36,10 @@ def determineDay(percent):
     elif percent == '80.5':
         return 4
     else:
-        return 0  # error
+        return 'error'
 
 
-""" CASES:
-    We need:
-    - day of the week,
-    - start.TimeTime,
-    - end.TimeTime,
-    - lessonName,
-    - classroomName. #ok
-
-    SPECIAL CASE:
+""" SPECIAL CASE:
     - 'zastępstwo'
     - 'lekcja odwołana'
     - inside title:
