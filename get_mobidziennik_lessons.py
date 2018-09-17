@@ -9,8 +9,6 @@ from robobrowser import RoboBrowser
 from bs4 import BeautifulSoup
 import re
 import config
-import pprint
-pp = pprint.PrettyPrinter(indent=4)
 
 br = RoboBrowser()
 br.open('https://lo2kalisz.mobidziennik.pl/dziennik/')
