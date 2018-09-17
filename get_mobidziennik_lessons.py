@@ -54,7 +54,6 @@ def determineDay(percent):
         - &lt; etc.
     """
 
-# select <div class="plansc_cnt">
 numOfLessons = i = numOfMatches = 0
 
 calendar = {}
@@ -68,13 +67,7 @@ for bigDiv in br.find_all(class_='plansc_cnt_w'):
     title = re.search(
         r'title="(?P<startTime>\d\d:\d\d) - (?P<endTime>\d\d:\d\d)&lt;br /&gt;(?P<name>.*)&lt;br /&gt;(?P<info>.*) (?P<classroom>\(.*\))"', bigDiv)
 
-    # SPECIAL CASES:
-    # title="&lt;small&gt;Lekcja odwołana: Lekcja odwołana&lt;/small&gt;&lt;br /&gt;13:30 - 14:15&lt;br /&gt;informatyka PR&lt;br /&gt;3 e-11/14,3d-15/24,3h-15/16">
-    # title="&lt;small&gt;zastępstwo&lt;/small&gt;&lt;br /&gt;10:50 - 11:35&lt;br /&gt;Język angielski&lt;br /&gt;3 d - Rzepiak Alina (Sala_(203))">
-    #specialCase = re.search()
-
     # get start, end, name, classroom, which day it is and additional info
-    # unknown error
     try:
         i += 1
         dayNum = determineDay(percent)
@@ -102,12 +95,6 @@ for bigDiv in br.find_all(class_='plansc_cnt_w'):
         'classroom': classroom,
         'info': info,
     }
-
-    """ print(
-        '{title}\nstartTime: "{startTime}", endTime: "{endTime}", name: "{name}", info: "{info}", classroom: "{classroom}", dayNum: "{dayNum}"'.format(
-            title=title[0], startTime= startTime,endTime=endTime,name=name,info=info,classroom=classroom,dayNum=dayNum
-        )
-    ) """
-
+# to do:
 # if title has a <small></small> property, then it's a special case
 # get text inside the <small></small> and save as one-time event!

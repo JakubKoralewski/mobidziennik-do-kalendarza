@@ -1,7 +1,6 @@
 """
     By Jakub Koralewski
     Gets calendar from get_mobidziennik_lessons.py and saves to .ics.
-    https://icalendar.org/validator.html
     """
 from get_mobidziennik_lessons import calendar
 from icalendar import Calendar, Event
