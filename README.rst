@@ -8,6 +8,9 @@ Dodaje twój osobisty kalendarz z platformy mobidziennik i zapisuje go w formaci
 Możesz otworzyć ten plik w **Google Kalendarzu**, **Microsofcie Outlooku** i innych kalendarzach.
 
 Jak korzystać?
+0. Zależności:
+    - icalendar
+    - robobrowser
 
 1. Ustaw w *config.py* własne dane:
     - *USER_NAME* - twój login
